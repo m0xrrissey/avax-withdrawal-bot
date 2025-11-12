@@ -1,0 +1,26 @@
+{
+  "name": "avax-withdrawal-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring Avalanche withdrawal requests",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "avalanche",
+    "withdrawal",
+    "notifications"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@grammyjs/ratelimiter": "^1.2.0",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.10.0",
+    "grammy": "^1.21.1"
+  }
+}
